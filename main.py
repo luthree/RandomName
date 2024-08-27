@@ -15,7 +15,7 @@ class NamePicker:
         self.pick_button = tk.Button(master, text="开始点名", command=self.toggle_picking, font=("Arial", 14))
         self.pick_button.pack(pady=20)
 
-        self.names = ["张三", "李四", "王五", "赵六", "A", "陈七"]
+        self.names = ["A", "B"]
         self.is_picking = False
 
     def toggle_picking(self):
